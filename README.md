@@ -6,7 +6,7 @@ This project is a Sentiment Analysis Model built using Naive Bayes to classify m
 
 🔗 Live Demo
 
-Check out the deployed app on Render: 
+Check out the deployed app on Render: https://sentiment-analysis-j4km.onrender.com
 
 Dataset
 
