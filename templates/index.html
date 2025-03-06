@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Movie Review Sentiment Analysis</h1>
+    <form method="POST" action="/predict">
+        <textarea name="review" rows="4" cols="50" placeholder="Type your review here..."></textarea><br><br>
+        <input type="submit" value="Analyze Sentiment">
+    </form>
+
+    {% if review %}
+    <h2>Review:</h2>
+    <p>{{ review }}</p>
+    <h2>Sentiment:</h2>
+    <p>{{ sentiment }} {{ emoji }}</p>
+    {% endif %}
+</body>
+</html>
